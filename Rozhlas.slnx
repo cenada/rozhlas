@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Rozhlas.vcxproj" Id="7f35d0ee-af3c-4294-9017-20b127041718" />
+</Solution>

@@ -27,5 +27,6 @@ Protokol:
 https://www.laskakit.cz/user/related_files/8ch_rele_rs485_protocols.pdf  
   
   funkcia 6 prepína: 1 - zapnúť, 2 - vypnúť  
-  
+
+Program beží na OS Windows, ale po výmene modulu *serial* by mal fungovať aj pod inými OS.  
 Cenada 2025, pavel.petrovic@gmail.com

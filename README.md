@@ -9,10 +9,10 @@ napr.
 
 rozhlas COM3 on  
 rozhlas COM3 off  
-
-rozhlas /dev/ttyUSB0 on          # linux
-rozhlas /dev/ttyUSB0 off
-
+  
+rozhlas /dev/ttyUSB0 on          # linux  
+rozhlas /dev/ttyUSB0 off  
+  
 komunikuje cez rozhranie RS485 v móde MODBUS s doskou so 4ks riadených relé:  
  - eletech CE040 4 channel rs485 relay board  
  https://www.ebay.com/itm/272104454591  

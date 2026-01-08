@@ -1,0 +1,4 @@
+place the bell mp3 sounds in zaciatok/ and koniec/
+then build the binary rozhlas, place it into this folder
+
+you can also install service that runs the zvonenie.sh script automatically after boot from this folder 

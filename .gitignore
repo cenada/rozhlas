@@ -2,3 +2,8 @@
 Rozhlas.vcxproj.user
 Rozhlas
 x64
+linux/rozhlas
+scripts/linux/rozhlas
+scripts/linux/zaciatok/*.mp3
+scripts/linux/koniec/*.mp3
+

@@ -3,7 +3,25 @@
 
 #include <stdio.h>
 #include <stdint.h>
+#include <string.h>
+
+#ifdef _WIN32
+
 #include <windows.h>
+
+#else
+
+#include <unistd.h>
+#include <strings.h>
+
+typedef int HANDLE;
+typedef uint32_t DWORD;
+#define INVALID_HANDLE_VALUE (-1)
+#define Sleep(x) usleep(1000 * x)
+#define _stricmp strcasecmp
+
+#endif
+
 
 HANDLE serial_open_port(const char* device, uint32_t baud_rate);
 

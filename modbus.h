@@ -3,6 +3,8 @@
 
 #include <stdint.h>
 
+#include "serial.h"
+
 #define STATE_ON  1
 #define STATE_OFF 2
 

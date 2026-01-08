@@ -1,0 +1,17 @@
+[Unit]
+Description=Zvonenie service
+After=network.target remote-fs.target nss-lookup.target 
+
+[Service]
+User=rozhlas
+Group=rozhlas
+ExecStart=/home/rozhlas/s/rozhlas/scripts/linux/zvonenie.sh
+WorkingDirectory=/home/rozhlas/s/rozhlas/scripts/linux
+Restart=yes
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=zvonenie
+
+[Install]
+WantedBy=multi-user.target
+
